@@ -60,13 +60,10 @@
         "speed_wall_x" : { "value": "speed_wall + 10"},
         "speed_support_infill" : { "value": "round(speed_print *  0.8, 0)"},
         "speed_support_interface" : { "value": "round(speed_print *  0.7, 0)"},
-        "speed_travel" : { "value": "120"},
+        "speed_travel" : { "value": "100"},
         "speed_travel_layer_0" : { "value": "80"},
         "speed_layer_0" : { "value": "round(speed_print * 0.3, 0)"},
         "retraction_combing": { "default_value": "noskin" },
-        "travel_avoid_other_parts" : { "value": "True"},
-        "travel_avoid_supports" : { "value": "True"},
-        "travel_avoid_distance" : { "value": "3"},
         "retraction_hop_enabled" : { "value": "True"},
         "retraction_hop_only_when_collides" : { "value": "True"},
         "retraction_hop" : { "value": "0.5"},
@@ -102,6 +99,8 @@
         "jerk_travel": { "default_value": 10 },
         "machine_max_jerk_xy": { "default_value": 10 },
         "machine_max_jerk_z": { "default_value": 0.4 },
-        "machine_max_jerk_e": { "value": 10 }
+        "machine_max_jerk_e": { "value": 10 },
+
+        "material_flow": { "value": 85 }
     }
 }
