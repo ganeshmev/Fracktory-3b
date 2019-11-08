@@ -99,6 +99,6 @@
         "jerk_print": { "default_value": 5 },
         "jerk_travel": { "value": 5 },
 
-        "material_flow": { "value": 85 }
+        "material_flow": { "devalue": 85 }
     }
 }

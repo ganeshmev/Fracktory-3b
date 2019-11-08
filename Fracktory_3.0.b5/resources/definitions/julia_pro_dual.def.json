@@ -101,6 +101,6 @@
         "machine_max_jerk_z": { "default_value": 0.4 },
         "machine_max_jerk_e": { "value": 10 },
 
-        "material_flow": { "value": 85 }
+        "material_flow": { "default_value": 85 }
     }
 }

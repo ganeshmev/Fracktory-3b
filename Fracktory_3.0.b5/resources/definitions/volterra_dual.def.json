@@ -103,6 +103,7 @@
         "machine_max_jerk_e": { "default_value": 10 },
         "jerk_print": { "default_value": 10 },
         "jerk_travel": { "value": 10 },
-        "material_flow": { "value": 85 }
+        
+        "material_flow": { "default_value": 85 }
     }
 }
