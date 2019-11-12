@@ -59,11 +59,11 @@
         "speed_wall_x" : { "value": "speed_wall + 10"},
         "speed_support_infill" : { "value": "round(speed_print *  0.8, 0)"},
         "speed_support_interface" : { "value": "round(speed_print *  0.7, 0)"},
-        "speed_travel" : { "value": "120"},
+        "speed_travel" : { "value": "100"},
         "speed_travel_layer_0" : { "value": "80"},
         "speed_layer_0" : { "value": "round(speed_print * 0.3, 0)"},
         "retraction_combing": { "default_value": "noskin" },
-        "travel_avoid_other_parts" : { "value": "False"},
+        "travel_avoid_other_parts" : { "value": "True"},
         "travel_avoid_supports" : { "value": "True"},
         "travel_avoid_distance" : { "value": "3"},
         "retraction_hop_enabled" : { "value": "True"},
@@ -76,7 +76,7 @@
         "retraction_combing_max_distance" : { "value": "10"},
         "cool_min_layer_time": { "default_value": 15 },
         "bridge_settings_enabled": { "default_value": true},
-        "z_seam_corner": { "default_value": "z_seam_corner_none"},
+        "z_seam_corner": { "default_value": "z_seam_corner_weighted"},
 
         "machine_max_feedrate_x": { "default_value": 200 },
         "machine_max_feedrate_y": { "default_value": 200 },
@@ -99,6 +99,7 @@
         "jerk_print": { "default_value": 10 },
         "jerk_travel": { "value": 10 },
 
-        "material_flow": { "default_value": 85 }
+        "material_flow": { "default_value": 85 },
+        "retraction_extra_prime_amount": { "default_value": 0.06 }
     }
 }

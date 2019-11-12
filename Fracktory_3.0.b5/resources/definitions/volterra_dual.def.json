@@ -60,11 +60,11 @@
         "speed_wall_x" : { "value": "speed_wall + 10"},
         "speed_support_infill" : { "value": "round(speed_print *  0.8, 0)"},
         "speed_support_interface" : { "value": "round(speed_print *  0.7, 0)"},
-        "speed_travel" : { "value": "120"},
+        "speed_travel" : { "value": "100"},
         "speed_travel_layer_0" : { "value": "80"},
         "speed_layer_0" : { "value": "round(speed_print * 0.3, 0)"},
         "retraction_combing": { "default_value": "noskin" },
-        "travel_avoid_other_parts" : { "value": "False"},
+        "travel_avoid_other_parts" : { "value": "True"},
         "travel_avoid_supports" : { "value": "True"},
         "travel_avoid_distance" : { "value": "3"},
         "retraction_hop_enabled" : { "value": "True"},
@@ -103,7 +103,10 @@
         "machine_max_jerk_e": { "default_value": 10 },
         "jerk_print": { "default_value": 10 },
         "jerk_travel": { "value": 10 },
-        
-        "material_flow": { "default_value": 85 }
+
+        "material_flow": { "default_value": 85 },
+        "retraction_extra_prime_amount": { "default_value": 0.06 },
+        "prime_tower_min_volume" : { "value": "(0.95 * layer_height * 3.14 * (4 * machine_nozzle_size * prime_tower_size) - (16 *(machine_nozzle_size ** 2))) "}
+
     }
 }
