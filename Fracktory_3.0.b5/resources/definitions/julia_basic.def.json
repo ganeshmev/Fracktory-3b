@@ -50,7 +50,7 @@
         "retraction_enable" : { "value": "True"},
         "retraction_amount" : { "value": "1"},
         "retraction_speed" : { "value": "50"},
-        "limit_support_retractions" : { "value": "True"},
+        "limit_support_retractions" : { "value": "False"},
         "material_standby_temperature" : { "value": "175"},
         "switch_extruder_retraction_amount" : { "value": "10"},
         "switch_extruder_retraction_speeds" : { "value": "25"},
