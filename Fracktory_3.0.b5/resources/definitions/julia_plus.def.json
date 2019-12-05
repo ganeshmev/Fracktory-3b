@@ -100,6 +100,9 @@
         "jerk_travel": { "value": 5 },
 
         "material_flow": { "default_value": 85 },
+        "wall_x_material_flow": { "default_value": 100 },
+        "skin_material_flow": { "default_value": 120 },
+        "roofing_material_flow": { "default_value": 120 },
         "retraction_extra_prime_amount": { "default_value": 0.06 }
     }
 }
