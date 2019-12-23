@@ -62,7 +62,7 @@
         "speed_travel" : { "value": "100"},
         "speed_travel_layer_0" : { "value": "80"},
         "speed_layer_0" : { "value": "round(speed_print * 0.3, 0)"},
-        "retraction_combing": { "default_value": "noskin" },
+        "retraction_combing": { "default_value": "off" },
         "travel_avoid_other_parts" : { "value": "False"},
         "travel_avoid_supports" : { "value": "False"},
         "travel_avoid_distance" : { "value": "3"},
